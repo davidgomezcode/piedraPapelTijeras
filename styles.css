@@ -3,28 +3,57 @@ html {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
+  /* height: auto;
+  width: auto; */
+  /* align-items: center; */
+  /* Above find the former styles, replaced by the ones under */
   display: flex;
-  align-items: center;
-  background: linear-gradient(to top left, black, white);
+  background: linear-gradient(to bottom right, black, white);
+  background-attachment: fixed;
 }
 main {
   /* display: flex;
   flex-direction: column; */
   margin: 0 auto;
 }
+.hidden {
+  display: none;
+}
+.rondas {
+  text-align: center;
+}
+.rondasSection {
+  margin: 12% auto 4% auto;
+  width: fit-content;
+  border: 5px solid #d9d9d9;
+  border-radius: 2rem;
+}
+.rondasInput {
+  width: 35ch;
+  height: 2.2rem;
+  text-align: center;
+  border-radius: 4rem;
+}
+.rondasButton {
+  border: 5px solid #d9d9d9;
+}
+.rondasChosenh1 {
+  color: white;
+}
 .contador {
-  width: 50rem;
-  height: 28rem;
+  /* width: 50rem; */
+  width: 85%;
+  /* height: 28rem; */
   border: 2px solid black;
-  border-radius: 16px;
+  border-radius: 60px;
   display: flex;
   flex-direction: column;
   background-color: grey;
   align-items: center;
-  margin: auto;
-  margin-top: 3rem;
+  margin: 3rem auto;
+  /* margin-top: 3rem; */
 }
 h1 {
   font-family: sans-serif;
