@@ -17,6 +17,7 @@ let rondas;
 // Select rondas hides the input and displays the h1 with the number of rondas selected.
 const selectRondas = function () {
   rondas = document.querySelector(".rondasInput").value;
+  if (!rondas) return;
   document.querySelector(".rondas").classList.add("hidden");
   document.querySelector(".rondasChosen ").classList.remove("hidden");
   document.querySelector(".rondasChosenSpan").textContent = rondas;
